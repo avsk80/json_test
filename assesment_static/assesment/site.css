@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 1200px;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(10, 9, 9);
+}
+
+p {
+  margin: 0.5em 0 0.5em 0;
+}
+.headerFont{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 18px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a:visited,
+nav a:link {
+  -webkit-text-fill-color: rgb(224, 214, 214);
+  background: -o-gradient(linear,left top,left bottom,from(#691f37),to(#dd1bd0));
+  text-shadow: 0 0 3px rgb(255, 219, 18);
+  font-weight: 100;  text-decoration: solid;
+}
+nav a:hover {
+  -webkit-text-fill-color: rgb(245, 159, 0);
+  text-decoration: none;
+}
+nav > ul {
+  display: inline;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px 0 5px;
+}
+
+
+footer {
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 black;
+  background-color: black;
+  transition: 0.3s;
+  width: 253px;
+  max-height: 500px;
+  margin-left: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;color: white;
+  display: inline-block;
+  text-align: center;
+}
+.cardImages{
+  box-shadow: 0 4px 8px 0 rgb(48,48,48);
+  transition: 0.3s;
+  width: 30%;
+  height: 30%;
+  margin-left: 25px;
+  margin-top:100px;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+.beaches{
+  box-shadow: 0 4px 8px 0 rgb(48,48,48);
+  transition: 0.3s;
+  width: 30%;
+  height: 30%;
+  margin-left: 25px;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+.centered {
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  transform: translate(-50%, -50%);
+  -webkit-text-fill-color: rgb(245, 159, 0);
+  font-size: 25px;
+  background: -o-gradient(linear,left top,left bottom,from(#691f37),to(#dd1bd0));
+  text-shadow: 0 0 3px rgb(53, 138, 60);
+  font-weight: 100;
+  text-decoration: solid
+}
